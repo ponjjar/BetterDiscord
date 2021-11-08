@@ -1,0 +1,33 @@
+/**
+ * @name FullsizeVideo
+ * @version 1.0
+ * @description A theme for turn your videos in full width
+ * @author Caique Ponjjar
+ * 
+ * @website http://github.com/Caique-P
+ * @source https://github.com/Caique-P/BetterDiscord/LargerVideo
+ * @User: @Caique#0001
+ */
+
+@keyframes fadein {
+    from {
+    opacity: 0; }
+    to   {
+    opacity: 1; }
+}
+div[class^="wrapperP"][style], div[class^="imageWrapper"][style],
+div[class^="wrapperControls"][style]  {
+    width: 100% !important;
+    border-radius: 0 !important;
+    margin: auto;
+    height: 100% !important;
+  animation: fadein 2s;
+};
+
+.metadata-13NcHb[style] {
+    background-image: none !important;
+};
+
+video{
+    width: auto;
+};
