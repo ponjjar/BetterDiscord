@@ -1,6 +1,6 @@
 /**
  * @name FullsizeVideo
- * @version 1.3
+ * @version 1.4
  * @description A theme for turn your videos in full width
  * @author Caique Ponjjar
  * 
@@ -20,9 +20,7 @@ div[class^="wrapperControls"][style]  {
     width: 100% !important;
         height: auto !important;
     max-width: 80vh !important;
-  margin-left: 2vh  !important;
     border-radius: 0 !important;
-    
     max-height: 80vh !important;
   animation: fadein 1.0s;
 };
